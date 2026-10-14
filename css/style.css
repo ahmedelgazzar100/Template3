@@ -931,9 +931,10 @@ a {
 }
 .events .container .info .time {
   display: flex;
-  gap: 30px;
+  gap: 10px;
   justify-content: center;
   align-items: center;
+  /* flex-wrap: wrap; */
 }
 .events .container .info .time .unit {
   border-radius: 6px;
@@ -949,12 +950,12 @@ a {
   transition: var(--main-transition);
 }
 .events .container .info .time .unit span:first-of-type {
-  padding: 15px;
+  padding: 10px;
   font-size: 35px;
   color: var(--main-color);
 }
 .events .container .info .time .unit span:nth-of-type(2) {
-  padding: 8px 10px;
+  padding: 8px 8px;
   font-size: 20px;
   border-top: 1px solid #d4d4d4;
   transition: var(--main-transition);
@@ -1588,3 +1589,8 @@ a {
   }
 }
 /* end animation */
+/* @media (max-width: 767px) {
+  * {
+    outline: 1px solid red;
+  }
+} */
